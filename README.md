@@ -1,5 +1,5 @@
 # bash-commands
-https://www.learnenough.com/command-line-tutorial#sec-editing_the_line
+[source](https://www.learnenough.com/command-line-tutorial#sec-editing_the_line)
 
 ### Редактирование
 * **Ctrl A** - _курсор в начало строки_
