@@ -64,6 +64,8 @@
 ## Поиск директорий node_modules из текущей директории
 **find ./ -type d | grep 'node_modules'**
 
+## Поиск и удаление директорий node_modules из текущей директории
+**find . -name "node_modules" -type d -exec rm -r "{}" \;**
 
 ### Common
 **whoami**	_текущий user_
