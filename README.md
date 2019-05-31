@@ -1,6 +1,9 @@
 # bash-commands
 [source](https://www.learnenough.com/command-line-tutorial#sec-editing_the_line)
 
+### Закачка файлов с 1 по 25-й номер
+**curl - LO https://test.video.net/videos/video[1-25].mp4**
+
 ### Редактирование
 * **Ctrl A** - _курсор в начало строки_
 * **Ctrl E** - _курсор в конец строки_
@@ -57,7 +60,11 @@
 * **mkdir -p `date '+%y%m%d'`/{1,2,3}** _same as 4 but with the current date as a directory and 1,2,3 in it._
 
 * **mkdir -p $USER/{1,2,3}** _same as 4 but with the current user as a directory and 1,2,3 in it._
-	
+
+## Поиск директорий node_modules из текущей директории
+**find ./ -type d | grep 'node_modules'**
+
+
 ### Common
 **whoami**	_текущий user_
 **pwd**     _текущая директория_
