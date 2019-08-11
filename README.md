@@ -21,7 +21,7 @@
 
 ###	Listing file in directories
 **ls**
-**ls *.txt**  _only .txt files_	
+**ls *.txt**  _only .txt files_
 **ls -l**     _long form_
 **ls -a**	  _show hidden files_
 
@@ -30,14 +30,14 @@
 **mv src.js dist.js**
 
 ### Copy
-**cp src.js dist.js**	
+**cp src.js dist.js**
 
 ### Delete
 **rm src.js**
 **rm -f src.js** _force remove_
-	
+
 ### Tab completion
-	
+
 ### Alias
 *C:\Program Files\Git\etc\profile.d\aliases.sh*
 **alias setdir='touch index.html | mkdir ./{css,js,img,assets} && touch ./{js/app.js,css/style.css}'**
@@ -96,10 +96,10 @@ x != y строка х не совпадает y
 
 for i in 1 2 3 4 5 6 7 8 9 10; do
 echo $i
-done 
+done
 
 if ...
-then 
-else ... 
+then
+else ...
 elif ...
 fi
